@@ -28,7 +28,7 @@ struct ContentView_Previews: PreviewProvider {
 struct TutorCell: View {
     let tutor: Tutor
     var body: some View {
-        NavigationLink(destination: Text(tutor.name)) {
+        NavigationLink(destination: TutorDetailView(tutor: tutor)) {
             Image(tutor.imageName).cornerRadius(40)
             VStack(alignment: .leading) {
                 Text(tutor.name)

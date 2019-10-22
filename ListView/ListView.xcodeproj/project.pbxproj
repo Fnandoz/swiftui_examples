@@ -14,6 +14,7 @@
 		3974FD2B235F6F5D0066584A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3974FD2A235F6F5D0066584A /* Preview Assets.xcassets */; };
 		3974FD2E235F6F5D0066584A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3974FD2C235F6F5D0066584A /* LaunchScreen.storyboard */; };
 		3974FD36235F716B0066584A /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974FD35235F716B0066584A /* Tutor.swift */; };
+		3974FD38235F750F0066584A /* TutorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3974FD37235F750F0066584A /* TutorDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3974FD2D235F6F5D0066584A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3974FD2F235F6F5D0066584A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3974FD35235F716B0066584A /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tutor.swift; sourceTree = "<group>"; };
+		3974FD37235F750F0066584A /* TutorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				3974FD2C235F6F5D0066584A /* LaunchScreen.storyboard */,
 				3974FD2F235F6F5D0066584A /* Info.plist */,
 				3974FD29235F6F5D0066584A /* Preview Content */,
+				3974FD37235F750F0066584A /* TutorDetailView.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			files = (
 				3974FD36235F716B0066584A /* Tutor.swift in Sources */,
 				3974FD22235F6F550066584A /* AppDelegate.swift in Sources */,
+				3974FD38235F750F0066584A /* TutorDetailView.swift in Sources */,
 				3974FD24235F6F550066584A /* SceneDelegate.swift in Sources */,
 				3974FD26235F6F550066584A /* ContentView.swift in Sources */,
 			);
